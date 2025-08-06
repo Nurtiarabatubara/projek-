@@ -1,0 +1,134 @@
+.navbar-custom {
+  background-color: #005F57;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link:active,
+.navbar-custom .nav-link.active {
+  color: #f0bb1e !important;
+}
+
+.navbar-custom .nav-item {
+  margin-right: 5px;
+}
+
+
+
+
+.teks {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+
+/* jurusan */
+
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  padding: 50px;
+  justify-items: center;
+}
+
+
+.section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: #028177;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 700px;
+}
+
+
+.section .figure-img {
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  flex-shrink: 0;
+}
+
+
+.section .figure-teks {
+  font-size: 28px;
+  font-weight: bold;
+  color: #005F57;
+  flex: 1;
+  text-align: left;
+}
+
+
+
+.section .figure-teks {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  flex: 1; 
+}
+
+
+.section .figure-img {
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  flex-shrink: 0;
+}
+
+
+
+.berita {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 40px;
+    font-weight: bolder;
+}
+.btn-primary.btn {
+  font-size: 10px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 40px;
+  background-color: #005F57;
+  padding: 10px 40px;
+  
+}
+
+  .kabar {
+  border-left: 6px solid #005F57;
+  padding-left: 10px;
+  margin: 30px 0 20px 50px;   
+  font-size: 35px;
+  color: #000000;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+
+
+
+
+
